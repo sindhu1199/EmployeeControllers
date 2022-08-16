@@ -1,0 +1,79 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 15, Errors: 0, Skipped: 0, Time elapsed: 5.633 sec <<< FAILURE!
+runScenario(runner.TestRunner)  Time elapsed: 0.449 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at ?.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+
+runScenario(runner.TestRunner)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at ?.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+
+runScenario(runner.TestRunner)  Time elapsed: 0.021 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at ?.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+
+runScenario(runner.TestRunner)  Time elapsed: 0.021 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at ?.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+
+runScenario(runner.TestRunner)  Time elapsed: 0.018 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at ?.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+
+runScenario(runner.TestRunner)  Time elapsed: 0.018 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at ?.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+
+runScenario(runner.TestRunner)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at ?.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+
+runScenario(runner.TestRunner)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at ?.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+
+runScenario(runner.TestRunner)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at ?.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+
+runScenario(runner.TestRunner)  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at ?.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+
+runScenario(runner.TestRunner)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at ?.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+
+runScenario(runner.TestRunner)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at ?.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+
+runScenario(runner.TestRunner)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at ?.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+
+runScenario(runner.TestRunner)  Time elapsed: 0.013 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at ?.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+
+runScenario(runner.TestRunner)  Time elapsed: 0.027 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at ?.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+

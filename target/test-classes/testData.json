@@ -1,0 +1,179 @@
+{
+  "createEmployee": {
+    "firstName": "sindhu",
+    "lastName": "thokala",
+    "age": 25,
+    "noOfChildrens": 2,
+    "spouse": true,
+    "address": {
+      "streetAddress": "3-31,Nakrekal",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "country": "India",
+      "postalCode": "500070"
+    },
+    "phoneNumbers": [
+      {
+        "type": "home",
+        "number": "9879856986"
+      }
+    ],
+    "hobbies": [
+      "singing",
+      "dancing"
+    ]
+  },
+  "updateEmployee": {
+    "firstName": "bhavana",
+    "lastName": "pannala",
+    "age": 22,
+    "noOfChildrens": 1,
+    "spouse": true,
+    "address": {
+      "streetAddress": "3-31,Nakrekal",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "country": "India",
+      "postalCode": "500070"
+    },
+    "phoneNumbers": [
+      {
+        "type": "home",
+        "number": "9879856986"
+      }
+    ],
+    "hobbies": [
+      "singing",
+      "reading books"
+    ]
+  },
+  "EmployeeWithfirstNameBlank": {
+    "lastName": "pannala",
+    "age": 25,
+    "noOfChildrens": 2,
+    "spouse": true,
+    "address": {
+      "streetAddress": "3-31,Nakrekal",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "country": "India",
+      "postalCode": "500070"
+    },
+    "phoneNumbers": [
+      {
+        "type": "home",
+        "number": "9879856986"
+      }
+    ],
+    "hobbies": [
+      "singing",
+      "reading books"
+    ]
+  },
+  "EmployeeWithlastNameBlank": {
+    "firstName": "bhavana",
+    "age": 25,
+    "noOfChildrens": 2,
+    "spouse": true,
+    "address": {
+      "streetAddress": "3-31,Nakrekal",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "country": "India",
+      "postalCode": "500070"
+    },
+    "phoneNumbers": [
+      {
+        "type": "home",
+        "number": "9879856986"
+      }
+    ],
+    "hobbies": [
+      "singing",
+      "reading books"
+    ]
+  },
+  "EmployeewithAdressBlank": {
+    "firstName": "bhavana",
+    "lastName": "pannala",
+    "age": 25,
+    "noOfChildrens": 2,
+    "spouse": true,
+    "phoneNumbers": [
+      {
+        "type": "home",
+        "number": "9879856986"
+      }
+    ],
+    "hobbies": [
+      "singing",
+      "reading books"
+    ]
+  },
+  "EmployeewithphoneNumberBlank": {
+    "firstName": "bhavana",
+    "lastName": "pannala",
+    "age": 25,
+    "noOfChildrens": 2,
+    "spouse": true,
+    "address": {
+      "streetAddress": "3-31,Nakrekal",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "country": "India",
+      "postalCode": "500070"
+    },
+    "hobbies": [
+      "singing",
+      "reading books"
+    ]
+  },
+  "EmployeefirstNameBlank": {
+    "lastName": "pannala",
+    "age": 25,
+    "noOfChildrens": 2,
+    "spouse": true,
+    "address": {
+      "streetAddress": "3-31,Nakrekal",
+      "city": "Hydrebad",
+      "state": "Telangana",
+      "country": "India",
+      "postalCode": "500070"
+    },
+    "phoneNumbers": [
+      {
+        "type": "home",
+        "number": "9879856986"
+      }
+    ],
+    "hobbies": [
+      "singing",
+      "playing games"
+    ]
+  },
+  "EmployeelastNameBlank": {
+    "firstName": "bhavana",
+    "age": 25,
+    "noOfChildrens": 2,
+    "spouse": true,
+    "address": {
+      "streetAddress": "3-31,Nalgonda",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "country": "India",
+      "postalCode": "500070"
+    },
+    "phoneNumbers": [
+      {
+        "type": "home",
+        "number": "9879856986"
+      }
+    ],
+    "hobbies": [
+      "singing",
+      "playing games"
+    ]
+  }
+}
+
+

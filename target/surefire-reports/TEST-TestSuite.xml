@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="15" failures="15" name="TestSuite" time="0.66" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.16+11-LTS-199"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.16\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\thoka\IdeaProjects\Employee.sprint"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\thoka\IdeaProjects\Employee.sprint"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.16+11-LTS-199"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\thoka\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.16\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_202;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.16\bin;C:\Program Files\nodejs\;C:\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Program Files\Git\cmd;C:\Users\thoka\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Users\thoka\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\bin;;."/>
+    <property name="maven.conf" value="C:\apache-maven-3.8.6-bin\apache-maven-3.8.6/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.8.6-bin\apache-maven-3.8.6\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\thoka"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="thoka"/>
+    <property name="java.class.path" value="C:\apache-maven-3.8.6-bin\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.16"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\apache-maven-3.8.6-bin\apache-maven-3.8.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="runner.TestRunner" name="runScenario" time="0.449">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at ✽.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@371a67ec
+
+Scenario: Verify that Employee details are created &amp;#27;[90m# src/test/java/features/Employee.feature:6&amp;#27;[0m
+  &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mCreating a Employee&amp;#27;[0m                        &amp;#27;[90m# steps.MyStepdefs.creatingAEmployee()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at âœ½.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mthe user is created&amp;#27;[0m                         &amp;#27;[90m# steps.MyStepdefs.theUserIsCreated()&amp;#27;[0m
+</system-out>
+    <system-err>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+</system-err>
+  </testcase>
+  <testcase classname="runner.TestRunner" name="runScenario" time="0.015">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at ✽.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+</failure>
+    <system-out>
+Scenario: Verify that error is thrown when the employee firstName is blank &amp;#27;[90m# src/test/java/features/Employee.feature:9&amp;#27;[0m
+  &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mCreating a Employee&amp;#27;[0m                                                &amp;#27;[90m# steps.MyStepdefs.creatingAEmployee()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at âœ½.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mcreating a Employee with firstName Blank&amp;#27;[0m                            &amp;#27;[90m# steps.MyStepdefs.creatingAEmployeeWithFirstNameBlank()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mError is thrown when firstName is not given&amp;#27;[0m                         &amp;#27;[90m# steps.MyStepdefs.errorIsThrownWhenFirstNameIsNotGiven()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="runner.TestRunner" name="runScenario" time="0.021">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at ✽.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+</failure>
+    <system-out>
+Scenario: Verify that error is thrown when the employee lastName is blank &amp;#27;[90m# src/test/java/features/Employee.feature:13&amp;#27;[0m
+  &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mCreating a Employee&amp;#27;[0m                                               &amp;#27;[90m# steps.MyStepdefs.creatingAEmployee()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at âœ½.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mcreating a Employee with lastName Blank&amp;#27;[0m                            &amp;#27;[90m# steps.MyStepdefs.creatingAEmployeeWithLastNameBlank()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mError is Thrown when lastName is not given&amp;#27;[0m                         &amp;#27;[90m# steps.MyStepdefs.errorIsThrownWhenLastNameIsNotGiven()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="runner.TestRunner" name="runScenario" time="0.021">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at ✽.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+</failure>
+    <system-out>
+Scenario: Verify that error is thrown when the employee address is blank &amp;#27;[90m# src/test/java/features/Employee.feature:17&amp;#27;[0m
+  &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mCreating a Employee&amp;#27;[0m                                              &amp;#27;[90m# steps.MyStepdefs.creatingAEmployee()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at âœ½.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mcreating a Employee with address Blank&amp;#27;[0m                            &amp;#27;[90m# steps.MyStepdefs.creatingAEmployeeWithAddressBlank()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mError is Thrown when address is not given&amp;#27;[0m                         &amp;#27;[90m# steps.MyStepdefs.errorIsThrownWhenAddressIsNotGiven()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="runner.TestRunner" name="runScenario" time="0.018">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at ✽.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+</failure>
+    <system-out>
+Scenario: Verify that error is thrown when employee phoneNumber is blank &amp;#27;[90m# src/test/java/features/Employee.feature:21&amp;#27;[0m
+  &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mCreating a Employee&amp;#27;[0m                                              &amp;#27;[90m# steps.MyStepdefs.creatingAEmployee()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at âœ½.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mcreating a Employee with phoneNumber Blank&amp;#27;[0m                        &amp;#27;[90m# steps.MyStepdefs.creatingAEmployeeWithPhoneNumberBlank()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mError is Thrown when phoneNumber is not given&amp;#27;[0m                     &amp;#27;[90m# steps.MyStepdefs.errorIsThrownWhenPhoneNumberIsNotGiven()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="runner.TestRunner" name="runScenario" time="0.018">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at ✽.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+</failure>
+    <system-out>
+Scenario: Verify that user is able to get Employee details by using valid Endpoint &amp;#27;[90m# src/test/java/features/Employee.feature:25&amp;#27;[0m
+  &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mCreating a Employee&amp;#27;[0m                                                        &amp;#27;[90m# steps.MyStepdefs.creatingAEmployee()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at âœ½.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mget the details of employee&amp;#27;[0m                                                 &amp;#27;[90m# steps.MyStepdefs.getTheDetailsOfEmployee()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="runner.TestRunner" name="runScenario" time="0.009">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at ✽.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+</failure>
+    <system-out>
+Scenario: Verify that user  is not able to get Employee details by using invalid endpoint &amp;#27;[90m# src/test/java/features/Employee.feature:28&amp;#27;[0m
+  &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mCreating a Employee&amp;#27;[0m                                                               &amp;#27;[90m# steps.MyStepdefs.creatingAEmployee()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at âœ½.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mget the details of employee with invalid Endpoint&amp;#27;[0m                                  &amp;#27;[90m# steps.MyStepdefs.getTheDetailsOfEmployeeWithInvalidEndpoint()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mDetails of Employee displayed with invalid Endpoint&amp;#27;[0m                                &amp;#27;[90m# steps.MyStepdefs.detailsOfEmployeeDisplayedWithInvalidEndpoint()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="runner.TestRunner" name="runScenario" time="0.014">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at ✽.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+</failure>
+    <system-out>
+Scenario: Verify that user is able to get Employee details by using ID &amp;#27;[90m# src/test/java/features/Employee.feature:32&amp;#27;[0m
+  &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mCreating a Employee&amp;#27;[0m                                            &amp;#27;[90m# steps.MyStepdefs.creatingAEmployee()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at âœ½.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mget the details of employee with ID&amp;#27;[0m                             &amp;#27;[90m# steps.MyStepdefs.getTheDetailsOfEmployeeWithID()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mDetails of Employee displayed With ID&amp;#27;[0m                           &amp;#27;[90m# steps.MyStepdefs.detailsOfEmployeeDisplayedWithID()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="runner.TestRunner" name="runScenario" time="0.014">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at ✽.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+</failure>
+    <system-out>
+Scenario: Verify that user is able to get Employee details without using ID &amp;#27;[90m# src/test/java/features/Employee.feature:36&amp;#27;[0m
+  &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mCreating a Employee&amp;#27;[0m                                                 &amp;#27;[90m# steps.MyStepdefs.creatingAEmployee()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at âœ½.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mget the details of employees without using ID&amp;#27;[0m                        &amp;#27;[90m# steps.MyStepdefs.getTheDetailsOfEmployeesWithoutUsingID()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="runner.TestRunner" name="runScenario" time="0.012">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at ✽.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+</failure>
+    <system-out>
+Scenario: Verify that Employee details are updated &amp;#27;[90m# src/test/java/features/Employee.feature:39&amp;#27;[0m
+  &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mCreating a Employee&amp;#27;[0m                        &amp;#27;[90m# steps.MyStepdefs.creatingAEmployee()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at âœ½.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mUpdate the user&amp;#27;[0m                             &amp;#27;[90m# steps.MyStepdefs.updateTheUser()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mthe user is updated&amp;#27;[0m                         &amp;#27;[90m# steps.MyStepdefs.theUserIsUpdated()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="runner.TestRunner" name="runScenario" time="0.009">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at ✽.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+</failure>
+    <system-out>
+Scenario: Verify that error is thrown when ID is not given While Updating Employee details &amp;#27;[90m# src/test/java/features/Employee.feature:43&amp;#27;[0m
+  &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mCreating a Employee&amp;#27;[0m                                                                &amp;#27;[90m# steps.MyStepdefs.creatingAEmployee()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at âœ½.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mUpdating a Employee without ID&amp;#27;[0m                                                      &amp;#27;[90m# steps.MyStepdefs.updatingAEmployeeWithoutID()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mError is Thrown when ID is not given&amp;#27;[0m                                                &amp;#27;[90m# steps.MyStepdefs.errorIsThrownWhenIDIsNotGiven()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="runner.TestRunner" name="runScenario" time="0.01">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at ✽.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+</failure>
+    <system-out>
+Scenario: Verify that error is thrown when firstName is blank While Updating Employee details &amp;#27;[90m# src/test/java/features/Employee.feature:47&amp;#27;[0m
+  &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mCreating a Employee&amp;#27;[0m                                                                   &amp;#27;[90m# steps.MyStepdefs.creatingAEmployee()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at âœ½.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mUpdating a Employee with firstName Blank&amp;#27;[0m                                               &amp;#27;[90m# steps.MyStepdefs.updatingAEmployeeWithFirstNameBlank()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mError is thrown when firstName is not given While updating&amp;#27;[0m                             &amp;#27;[90m# steps.MyStepdefs.errorIsThrownWhenFirstNameIsNotGivenWhileUpdating()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="runner.TestRunner" name="runScenario" time="0.01">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at ✽.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+</failure>
+    <system-out>
+Scenario: Verify that error is thrown when lastName is blank While Updating Employee details &amp;#27;[90m# src/test/java/features/Employee.feature:51&amp;#27;[0m
+  &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mCreating a Employee&amp;#27;[0m                                                                  &amp;#27;[90m# steps.MyStepdefs.creatingAEmployee()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at âœ½.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mUpdating a Employee with lastName Blank&amp;#27;[0m                                               &amp;#27;[90m# steps.MyStepdefs.updatingAEmployeeWithLastNameBlank()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mError is Thrown when lastName is not given While updating&amp;#27;[0m                             &amp;#27;[90m# steps.MyStepdefs.errorIsThrownWhenLastNameIsNotGivenWhileUpdating()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="runner.TestRunner" name="runScenario" time="0.013">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at ✽.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+</failure>
+    <system-out>
+Scenario: Verify that Employee details are deleted &amp;#27;[90m# src/test/java/features/Employee.feature:55&amp;#27;[0m
+  &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mCreating a Employee&amp;#27;[0m                        &amp;#27;[90m# steps.MyStepdefs.creatingAEmployee()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at âœ½.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mthe user is deleted&amp;#27;[0m                         &amp;#27;[90m# steps.MyStepdefs.theUserIsDeleted()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="runner.TestRunner" name="runScenario" time="0.027">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at ✽.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+</failure>
+    <system-out>
+Scenario: Verify that error is thrown when the Employee details are deleted without using ID &amp;#27;[90m# src/test/java/features/Employee.feature:58&amp;#27;[0m
+  &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mCreating a Employee&amp;#27;[0m                                                                  &amp;#27;[90m# steps.MyStepdefs.creatingAEmployee()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.NullPointerException
+	at steps.MyStepdefs.creatingAEmployee(MyStepdefs.java:31)
+	at âœ½.Creating a Employee(file:///C:/Users/thoka/IdeaProjects/Employee.sprint/src/test/java/features/Employee.feature:4)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mDeleting a Employee without ID&amp;#27;[0m                                                        &amp;#27;[90m# steps.MyStepdefs.deletingAEmployeeWithoutID()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mError is Thrown when ID is not given While Deleting a Employee&amp;#27;[0m                        &amp;#27;[90m# steps.MyStepdefs.errorIsThrownWhenIDIsNotGivenWhileDeletingAEmployee()&amp;#27;[0m
+</system-out>
+  </testcase>
+</testsuite>
